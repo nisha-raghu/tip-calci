@@ -2,8 +2,8 @@
 //  TippyTests.swift
 //  TippyTests
 //
-//  Created by Student on 3/3/17.
-//  Copyright © 2017 Student. All rights reserved.
+//  Created by Nisha on 3/3/17.
+//  Copyright © 2017 Nisha. All rights reserved.
 //
 
 import XCTest
