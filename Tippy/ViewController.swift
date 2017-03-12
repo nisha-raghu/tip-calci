@@ -81,7 +81,7 @@ class ViewController: UIViewController {
     func storeValues(){
         defaults.set(Double(bill),forKey: "bill")
         dateHelper.dateFormat = dateFormatString
-        let futureDate = Date(timeInterval: TimeInterval(10), since: Date())
+        let futureDate = Date(timeInterval: TimeInterval(600), since: Date())
         defaults.set(String(dateHelper.string(from: futureDate)), forKey: "duration")
         defaults.synchronize()
     }
